@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <link rel="stylesheet" href="app/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script defer src="script.js"></script>
+
+</head>
+
+<body>
+    <nav>
+        <a class="brand" href="#"><i class="fa-solid fa-fire"></i></a>
+        <a id="home" class="link" href="#home">Home</a>
+        <a class="link" href="#blog">Blog</a>
+        <a class="link" href="#about">About</a>
+        <a class="link" href="#resources">Resources</a>
+        <a class="link" href="#contact">Contact</a>
+        <i id="burger" class="fa-solid fa-bars"></i>
+    </nav>
+    <header>
+        <h1>Blog</h1>
+        <p>All posts</p>
+        <form id="add-post">
+            <label id="title" for="title">Title</label>
+            <input class="title" name="title" type="text">
+            <label id="content" for="content">Content</label>
+            <input class="content" name="content" type="text">
+            <button>Add Post</button>
+        </form>
+        <div id="posts"></div>
+    </header>
+
+
+</body>
+
+</html>

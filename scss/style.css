@@ -1,0 +1,156 @@
+body {
+  background-color: #f0f0f0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: black;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #f0f0f0;
+  line-height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.2em;
+  font-family: verdana sans-serif;
+  z-index: 1;
+}
+nav .brand {
+  font-size: 1.5em;
+}
+nav a {
+  position: relative;
+  padding: 0 10px;
+  z-index: 1;
+  transition: 0.5s;
+  transition-delay: 0.2s;
+  color: orange;
+}
+nav a:hover {
+  color: black;
+}
+nav .side-nav {
+  position: fixed;
+  top: 50px;
+  flex-direction: column;
+  text-align: center;
+  width: 200px;
+  line-height: 100px;
+  transform: translateX(-200px);
+  padding: 0;
+  transition: transform 0.5s;
+}
+nav #burger {
+  display: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+h2 {
+  padding: 10px 0px 0px 230px;
+  font-size: 50px;
+}
+
+footer #posts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0px 100px;
+  gap: 5px;
+}
+footer h6 {
+  border-bottom: 2px solid black;
+  padding: 0 0 20px 0;
+  width: 350px;
+}
+
+header {
+  margin-top: 50px;
+}
+header #posts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+header h6 {
+  border-bottom: 2px solid black;
+  padding: 0 0 20px 0;
+  width: 350px;
+}
+
+section {
+  margin-top: 50px;
+  height: 70vh;
+  display: flex;
+  font-size: 3em;
+  font-family: verdana;
+}
+section .selected {
+  color: black;
+}
+section img {
+  width: 50%;
+}
+section p {
+  font-size: 16px;
+  padding: 20px 50px;
+}
+section h1 {
+  font-size: 20px;
+}
+section div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section div img {
+  padding: 10px;
+  width: 300px;
+  height: 300px;
+}
+section div button {
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+}
+
+#motivation {
+  display: flex;
+  align-items: center;
+}
+#motivation div.text {
+  width: 50%;
+  padding: 100px;
+}
+#motivation div.text h1 {
+  font-size: 40px;
+  text-align: center;
+}
+#motivation img {
+  height: 70vh;
+  width: 50%;
+}
+
+#about div {
+  width: 50%;
+}
+#about div p {
+  font-size: 20px;
+}
+#about div span {
+  font-size: 16px;
+}/*# sourceMappingURL=style.css.map */
